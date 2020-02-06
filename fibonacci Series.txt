@@ -1,0 +1,21 @@
+// For best result we suggest you to use Turbo c++;
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+	clrscr();
+	int i,n,f=0,s=1,ans;
+	cout<<"Enter the number of terms: ";
+	cin>>n;
+	cout<<"Fibonacci Series is: \n";
+	for(i=0;i<n;i++)
+	{
+		cout<<"\n"<<f;
+		ans=f+s;
+		f=s;
+		s=ans;
+	}
+	getch();
+}
